@@ -13,35 +13,33 @@ public class Teacher {
         this.yearsTeaching = yearsTeaching;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public void setSubject(String subject) {
-        this.subject = subject;
-    }
-
-    public void setYearsTeaching(int yearsTeaching) {
-        this.yearsTeaching = yearsTeaching;
-    }
-
+    // getters and setters
     public String getFirstName() {
         return firstName;
+    }
+    private void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {
         return lastName;
     }
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 
     public String getSubject() {
         return subject;
+    }
+    public void setSubject(String subject) {
+        this.subject = subject;
     }
 
     public int getYearsTeaching() {
         return yearsTeaching;
     }
+    public void setYearsTeaching(int yearsTeaching) {
+        this.yearsTeaching = yearsTeaching;
+    }
+
 }
